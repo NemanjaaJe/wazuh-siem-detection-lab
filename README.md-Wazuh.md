@@ -19,10 +19,10 @@ Test komande su izvršavane lokalno na agent mašini, dok je monitoring i prover
 
 | # | Test radnja | Komanda | MITRE ATT&CK tehnika |  
 |---|---|---|---|---|
-| 1 | Kreiranje lokalnog korisničkog naloga | `net user hacker Test123! /add` | T1136.001 – Create Account: Local Account | 
-| 2 | Dodavanje naloga u Administrators grupu | `net localgroup administrators hacker /add` | T1098.007 – Account Manipulation: Additional Local or Domain Group Membership | 
-| 3 | PowerShell izvršavanje uz zaobilaženje Execution Policy | `powershell -ExecutionPolicy Bypass -Command "Get-Process"` | T1059.001 – Command and Scripting Interpreter: PowerShell |
-| 4 | Brisanje Security event log-a | `wevtutil cl Security` | T1070.001 – Indicator Removal: Clear Windows Event Logs | 
+| 1 | Kreiranje lokalnog korisničkog naloga | `net user hacker Test123! /add` | T1136.001 – Create Account: Local Account 
+| 2 | Dodavanje naloga u Administrators grupu | `net localgroup administrators hacker /add` | T1098.007 – Account Manipulation: Additional Local or Domain Group Membership  
+| 3 | PowerShell izvršavanje uz zaobilaženje Execution Policy | `powershell -ExecutionPolicy Bypass -Command "Get-Process"` | T1059.001 – Command and Scripting Interpreter: PowerShell 
+| 4 | Brisanje Security event log-a | `wevtutil cl Security` | T1070.001 – Indicator Removal: Clear Windows Event Logs 
 
 
 
