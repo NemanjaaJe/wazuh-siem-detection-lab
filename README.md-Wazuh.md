@@ -53,4 +53,4 @@ Lab je pokazao da Wazuh, uz podrazumevana pravila, uspešno detektuje ključne f
 
 ## Autor
 
-Nemanja — student, u procesu izgradnje portfolija za cybersecurity oblast.
+Nemanja Golubovic
